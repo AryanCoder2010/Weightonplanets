@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="app.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+       </script>
+       <script>
+              function m(){
+                     var mer =document.getElementById('a').value;
+                     document.getElementById('ab').value = mer*0.3782;
+              }
+       </script>
+</head>
+       <body>
+              <form action="">
+                     <label id="te"for="a">Weight on Mars:</label>
+                     <input type="number" id="a">
+
+                     <input type="button" value="convert?" onclick="m()">
+
+                     <label id="te"for="ab">Weight on Mars:</label>
+                     <input type="number"  id="ab">
+              </form>
+       </body>
+</html>
