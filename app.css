@@ -28,3 +28,9 @@ body{
 #te{
        color:rgb(255, 255, 255);
 }
+@media screen and (max-width:360px) {
+       #but{
+             padding-left: 4cm; 
+             padding-right: 4cm;
+       }
+}
