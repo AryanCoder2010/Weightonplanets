@@ -34,7 +34,7 @@ body{
              padding-right: 4cm;
        }
 }
-@media screen and (max-width:540px){
+@media screen and (min-width:540px){
        #but{
               padding-left: 2cm;
               padding-right: 2cm;
