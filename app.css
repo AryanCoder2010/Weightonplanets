@@ -28,6 +28,22 @@ body{
 #te{
        color:rgb(255, 255, 255);
 }
+#navli {
+       display: inline-block;
+       padding-left: 1.75cm;
+       padding-right: 1.75cm;
+       padding-top: 0.5cm;
+       padding-bottom: 0.5cm;
+       background-color: white;
+       border-radius: 35%;
+}
+#navig{
+       background-color: rgb(14, 0, 49);
+}
+#nava{
+       color:rgb(250, 0, 0);
+       text-decoration: none;
+}
 @media screen and (max-width:360px) {
        #but{
              padding-left: 4cm; 
