@@ -23,6 +23,7 @@ body{
        padding-bottom: 500px;
 }
 #foot{
+       color: white; 
        background-color: rgb(0, 0, 0);
        position: relative;
        min-height: 100%;
